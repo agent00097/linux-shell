@@ -1,0 +1,5 @@
+path /bin tests
+p5.sh > tests/output22 & p4.sh > tests/output22
+cat tests/output22
+rm -f tests/output22
+exit
